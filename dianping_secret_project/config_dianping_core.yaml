@@ -1,0 +1,25 @@
+dianping:
+    rabbit:
+        host: 'localhost'
+        port: 5673
+        queue:
+            city_queue: 'dzdp_city_num'
+            region_queue: 'dzdp_region_url'
+            street_queue: 'dzdp_street_url'
+            cooking_queue: 'dzdp_cooking_url'
+            first_queue: 'dzdp_firstpage'
+            list_queue: 'dzdp_listpage'
+            all_url_queue: 'dzdp_comm_url_all'
+    mongo:
+        host: '114.80.150.196'
+        port: 27777
+        db: 'crawler_dianping'
+        user_name: 'fangjia'
+        password: 'fangjia123465'
+        save_coll: 'shop_info_new_all_type'
+    mysql_config:
+        port: 114.80.150.196
+        host: 3336
+        user_name: root
+        password: fangjia123456
+        db_name: dianping_config
